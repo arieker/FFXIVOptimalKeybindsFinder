@@ -1,0 +1,1 @@
+The goal of this project will be to find the most optimal keybinds setup in terms of minimizing thumb movement while following a rotation using a 12 button 4x3 MMO mouse. This will give a large ingame advantage and definitively prove a MOST OPTIMAL keybind setup unlike never before.

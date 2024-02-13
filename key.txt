@@ -1,0 +1,36 @@
+0 - Hard Slash
+1 - Syphon Strike
+2 - Souleater
+3 - Bloodspiller
+4 - Edge of Shadow
+5 - Plunge
+6 - Blood Weapon
+7 - Carve and Spit
+8 - Delirium
+9 - Shadowbringer
+10 - Salted Earth
+11 - Living Shadow
+12 - Unmend
+13 - Potion
+AOE
+14 - Unleash
+15 - Stalwart Soul
+16 - Flood of Shadow
+17 - Quietus
+Mitigation
+18 - TBN
+19 - Oblation
+20 - Dark Mind
+21 - Reprisal
+22 - Dark Missionary
+23 - Rampart
+24 - Shadow Wall
+25 - Living Dead
+Entirely Fight Dependent/Misc.
+26 - Arms length
+27 - Stance/Grit
+28 - Shirk
+29 - Voke
+30 - LB
+31 - Interject
+32 - Sprint
