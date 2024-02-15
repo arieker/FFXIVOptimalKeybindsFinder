@@ -17,6 +17,8 @@ The hotbars look like this:
 
 https://i.rtings.com/assets/products/r2LxkrXF/steelseries-aerox-9-wireless/extra-buttons-small.jpg
 
+-1 represents an unbound button. No negative numbers are used otherwise.
+
 ! Higher level future issues with the problem that must be solved somehow in the future after a general algorithm is found !
 
 There are mitigation buttons that are not necessarily used consistently at all, but still need fast access to be pressed even if they are not pressed
@@ -76,6 +78,27 @@ hotbars = [
   ]
 ]
 
+# This is my personal hotbar, for testing and comparison purposes. Can be commented out. It does not include '8' because I bind that to the keyboard. Ignore for now. Can be considered later.
+
+hotbars = [
+  [
+    [6, 7, 9, 12],
+    [1, 4, 5, -1],
+    [0, 2, 3, -1]
+  ],
+  [
+    [10, 13, -1, -1],
+    [-1, -1, -1, -1],
+    [-1, -1, -1, 11]
+  ],
+  [
+    [-1, -1, -1, -1],
+    [-1, -1, -1, -1],
+    [-1, -1, -1, -1]
+  ]
+]
+
+
 # Read the rotation
 with open('rotation.txt', 'r') as fo:
     rotation = [int(line.strip()) for line in fo.readlines()]
@@ -133,4 +156,7 @@ def test_layout():
 
 print("Rotation: %s" % rotation)
 print_hotbars()
-print("Final score lower is better: %s" % test_layout())
+try:
+  print("Final score lower is better: %0.2lf" % test_layout())
+except:
+  print("Final score lower is better: %s" % (test_layout()))
